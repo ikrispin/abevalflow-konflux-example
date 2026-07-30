@@ -26,7 +26,7 @@ spec:
         description: Konflux Snapshot JSON with component details
       - name: AGENT_IMAGE_OVERRIDE
         type: string
-        default: "quay.io/ecosystem-appeng/google-lightspeed-agent:176a268e"
+        default: "quay.io/ecosystem-appeng/google-lightspeed-agent:176a268e783a84f903ce680a26e031294ea985f7"
         description: >-
           Override the agent image instead of using the one from the Konflux
           snapshot. Set this when the snapshot image is in a private registry
