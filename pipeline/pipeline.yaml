@@ -49,7 +49,7 @@ spec:
             - name: name
               value: parse-snapshot
             - name: bundle
-              value: quay.io/rh-ee-ikrispin/abevalflow-task-parse-snapshot:0.1
+              value: quay.io/ecosystem-appeng/abevalflow-task-parse-snapshot:0.1
             - name: kind
               value: task
         params:
@@ -94,7 +94,7 @@ spec:
             - name: name
               value: prepare
             - name: bundle
-              value: quay.io/rh-ee-ikrispin/abevalflow-task-prepare:0.1
+              value: quay.io/ecosystem-appeng/abevalflow-task-prepare:0.1
             - name: kind
               value: task
         params:
@@ -129,7 +129,7 @@ spec:
             - name: name
               value: test
             - name: bundle
-              value: quay.io/rh-ee-ikrispin/abevalflow-task-test:0.1
+              value: quay.io/ecosystem-appeng/abevalflow-task-test:0.1
             - name: kind
               value: task
         params:
@@ -175,7 +175,7 @@ spec:
             - name: name
               value: evaluate
             - name: bundle
-              value: quay.io/rh-ee-ikrispin/abevalflow-task-evaluate:0.1
+              value: quay.io/ecosystem-appeng/abevalflow-task-evaluate:0.1
             - name: kind
               value: task
         params:
@@ -220,7 +220,7 @@ spec:
             - name: name
               value: analyze-scorecard
             - name: bundle
-              value: quay.io/rh-ee-ikrispin/abevalflow-task-analyze-scorecard:0.1
+              value: quay.io/ecosystem-appeng/abevalflow-task-analyze-scorecard:0.1
             - name: kind
               value: task
         params:
@@ -257,7 +257,7 @@ spec:
             - name: name
               value: store
             - name: bundle
-              value: quay.io/rh-ee-ikrispin/abevalflow-task-store:0.1
+              value: quay.io/ecosystem-appeng/abevalflow-task-store:0.1
             - name: kind
               value: task
         params:
@@ -292,7 +292,7 @@ spec:
             - name: name
               value: emit-result
             - name: bundle
-              value: quay.io/rh-ee-ikrispin/abevalflow-task-emit-result:0.1
+              value: quay.io/ecosystem-appeng/abevalflow-task-emit-result:0.1
             - name: kind
               value: task
         params:
