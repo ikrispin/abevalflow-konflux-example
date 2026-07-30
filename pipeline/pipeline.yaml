@@ -26,11 +26,12 @@ spec:
         description: Konflux Snapshot JSON with component details
       - name: AGENT_IMAGE_OVERRIDE
         type: string
-        default: ""
+        default: "quay.io/ecosystem-appeng/google-lightspeed-agent:176a268e"
         description: >-
           Override the agent image instead of using the one from the Konflux
           snapshot. Set this when the snapshot image is in a private registry
-          that the workload cluster cannot pull from.
+          that the workload cluster cannot pull from. Set to empty string to
+          use the Snapshot image directly.
     workspaces:
       - name: shared-workspace
     results:
